@@ -7,5 +7,6 @@ const returnFirstTwoDrivers = (arr) => {
 }
 
 const returnLastTwoDrivers = function (arr) {
-    return [arr[2],arr[3]];
+    arrNew = [arr[arr.length-2],arr[arr.length-1]]
+    return arrNew;
 }
