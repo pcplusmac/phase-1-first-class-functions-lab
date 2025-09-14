@@ -34,4 +34,22 @@ function createFareMultiplier(int) {
     // way 5: 
     // return (fare => fare*int);
 }
- 
+
+const fareDoubler = createFareMultiplier(2);
+
+const fareTripler = createFareMultiplier(3);
+
+function selectDifferentDrivers(arr, func) {
+    if (func === returnFirstTwoDrivers ) {
+        
+        const result = returnFirstTwoDrivers(arr);
+        return result;
+    }else if (func === returnLastTwoDrivers ) {
+        // const result = returnLastTwoDrivers(arr);
+        // return result;
+
+        // or can return without storing in the variable. 
+        return returnLastTwoDrivers(arr);
+    }
+
+}
